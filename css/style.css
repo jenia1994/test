@@ -1,0 +1,139 @@
+
+body{
+	background-color: black;
+}
+.body,header,.gl,.kont1{
+	 border: 1px solid #000000;
+	
+}
+.body{
+
+	width: 1300px;
+	
+	margin: 0 auto;
+	
+}
+header{
+	
+	width: 1300px;
+	height: 250px;
+}
+.gl{
+	width: 1300px;
+	height: 918px;
+	background-image: url(file:///C:/klassik/images/nav.gif)
+}
+
+
+
+.gl1{
+	
+	width: 131px;
+	height: 24px;
+	margin-top:21px;
+	margin-left: 50px;
+}
+.onas{
+
+	width: 85px;
+	height: 24px;
+	margin-left: 290px;
+	margin-top: -24px
+}
+.cash{
+	width: 82px;
+	height: 27px;
+	margin-left: 530px;
+	margin-top: -24px;
+	
+}
+.foto{
+	width: 100px;
+	height: 24px;
+	margin-left: 770px;
+	margin-top: -27px;
+}
+.kont{
+	width: 182px;
+	height: 24px;
+	margin-left: 1010px;
+	margin-top: -24px;
+}
+.button{
+	
+	width: 318px;
+	height: 50px;
+	margin: 0 auto;
+	
+}
+.onas1{
+	width: 1300px;
+	height: 834px;
+	background-image:url(file:///C:/klassik/images/onas.gif);
+color: aliceblue;
+}
+.cash1{
+	width: 1300px;
+	height: 1259px;
+	background-image: url(file:///C:/klassik/images/cash.gif);
+}
+.t1,.t2{
+	color: white;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 35pt;
+	text-align: center;
+}
+.t1,.t2,.button{
+	margin-top: 150px;
+}
+.slider{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding:0;
+	
+}
+
+.item{
+	height: 650px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-basis: 25%;
+	background-color: #aeaeae;
+	transition: all 0.2s;
+	
+
+}
+.item:hover{
+	flex-basis: 100%;
+}
+.item-1{
+	background-image: url(C:/klassik/images/1.jpg)  ;
+	background-size: cover;
+}
+.item-2{
+	background-image: url(C:/klassik/images/2.jpg);
+	background-size: cover;
+}
+.item-3{
+	background-image: url(C:/klassik/images/3.jpg);
+	background-size: cover;
+}
+.item-4{
+	background-image: url(C:/klassik/images/4.jpg);
+	background-size: cover;
+}
+.kont1{
+	width:1300px; 
+	height:500px;
+	background-color: #000000;
+}
+.text1,.text2,.text3,.text4{
+	color:white;
+	font-family: 'Amatic SC', cursive;
+	font-size: 35pt;
+	text-align: center;
+	
+}
